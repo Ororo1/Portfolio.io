@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "MyWebFont";
+  src: url("/lack-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Belle";
+  src: url("/FontsFree-Net-BelleStory-DisplayMedium.ttf") format("truetype");
+}
+.is-96x96 {
+  font-family: "Belle";
+}
+body {
+  background-color: #0a0e23;
+  width: 100%;
+  height: fit-content;
+}
+.title {
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+
+  /* Clip Background Image */
+  background: url("/Lucifer wallpaper hd (2).jpg") repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+.navbar-end a:hover {
+  background-color: transparent;
+  color: #b15e06;
+}
+.gmail {
+  border-left: white 5px;
+}
+/* Define the @keyframes for the animation */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.services p {
+  text-align: center;
+  color: #b15e06;
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: "MyWebFont";
+}
+.services h4 {
+  text-align: center;
+  color: #918e8b;
+  font-weight: bolder;
+  font-family: "MyWebFont";
+}
+.columns {
+  border-width: 10px;
+  border-color: #b15e06;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #0a1238;
+}
+.orca {
+  border-width: 10px;
+  border-color: #b15e06;
+  border-radius: 5%;
+  text-align: center;
+  padding: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #0a1238;
+}
+.password {
+  border-width: 10px;
+  border-color: #b15e06;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #0a1238;
+}
+.messi {
+  border-width: 10px;
+  border-color: #b15e06;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #0a1238;
+}
+.orca1 {
+  border-width: 10px;
+  border-color: #b15e06;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #0a1238;
+}
+.nike {
+  border-width: 10px;
+  border-color: #b15e06;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #0a1238;
+}
+.nikep {
+  text-align: center;
+}
+.portfolio p {
+  text-align: center;
+  color: #b15e06;
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: "MyWebFont";
+}
+.portfolio h4 {
+  text-align: center;
+  color: #918e8b;
+  font-weight: bolder;
+  font-family: "MyWebFont";
+}
+.contact p {
+  text-align: center;
+  color: #b15e06;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "MyWebFont";
+}
+.contact h4 {
+  text-align: center;
+  color: #918e8b;
+  font-weight: bolder;
+  font-family: "MyWebFont";
+}
+.whatsapp {
+}
+.whatsapp a {
+  background-color: #0a0e23;
+  text-align: center;
+  width: fit-content;
+  height: 75px;
+  border-radius: 50px;
+}
+.mail a {
+  background-color: #0a0e23;
+  text-align: center;
+  width: fit-content;
+  height: 75px;
+  border-radius: 50px;
+}
+.phone a {
+  background-color: #0a0e23;
+  text-align: center;
+  width: fit-content;
+  height: 75px;
+  border-radius: 50px;
+}
+.linkedin a {
+  background-color: #0a0e23;
+  text-align: center;
+  width: fit-content;
+  height: 75px;
+  border-radius: 50px;
+}
+
+.hero-head {
+  margin-bottom: 45px;
+}
+.modal-content {
+  background-color: transparent;
+  width: 80%;
+  height: max-content;
+  opacity: 75%;
+}
