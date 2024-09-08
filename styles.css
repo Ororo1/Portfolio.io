@@ -10,12 +10,11 @@
   font-family: "Belle";
 }
 body {
-  background-color: #0a0e23;
+  background-color: #2e2e2e;
   width: 100%;
   height: fit-content;
 }
 .title {
-  font-family: 'MyWebFont';
   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
 
   /* Clip Background Image */
@@ -30,11 +29,17 @@ body {
   /* Activate hardware acceleration for smoother animations */
   -webkit-transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
+  font-family: "MyWebFont";
+}
+.subtitle {
+  font-family: "MyWebFont";
+  font-size: small;
 }
 .navbar-end a {
   color: #b15e06;
   opacity: 100%;
   font-weight: bold;
+  font-family: "MyWebFont";
 }
 .navbar-end a:hover {
   background-color: transparent;
@@ -98,7 +103,7 @@ body {
   padding: 10px;
   margin-right: 15px;
   margin-left: 15px;
-  background-color: #0a1238;
+  background-color: #404040;
 }
 .orca {
   border-width: 10px;
@@ -108,7 +113,7 @@ body {
   padding: 10px;
   margin-right: 15px;
   margin-left: 15px;
-  background-color: #0a1238;
+  background-color: #404040;
 }
 .password {
   border-width: 10px;
@@ -118,7 +123,7 @@ body {
   padding: 10px;
   margin-right: 15px;
   margin-left: 15px;
-  background-color: #0a1238;
+  background-color: #404040;
 }
 .messi {
   border-width: 10px;
@@ -128,7 +133,7 @@ body {
   padding: 10px;
   margin-right: 15px;
   margin-left: 15px;
-  background-color: #0a1238;
+  background-color: #404040;
 }
 .orca1 {
   border-width: 10px;
@@ -138,7 +143,7 @@ body {
   padding: 10px;
   margin-right: 15px;
   margin-left: 15px;
-  background-color: #0a1238;
+  background-color: #404040;
 }
 .nike {
   border-width: 10px;
@@ -148,7 +153,7 @@ body {
   padding: 10px;
   margin-right: 15px;
   margin-left: 15px;
-  background-color: #0a1238;
+  background-color: #404040;
 }
 .nikep {
   text-align: center;
@@ -182,28 +187,28 @@ body {
 .whatsapp {
 }
 .whatsapp a {
-  background-color: #0a0e23;
+  background-color: #2e2e2e;
   text-align: center;
   width: fit-content;
   height: 75px;
   border-radius: 50px;
 }
 .mail a {
-  background-color: #0a0e23;
+  background-color: #2e2e2e;
   text-align: center;
   width: fit-content;
   height: 75px;
   border-radius: 50px;
 }
 .phone a {
-  background-color: #0a0e23;
+  background-color: #2e2e2e;
   text-align: center;
   width: fit-content;
   height: 75px;
   border-radius: 50px;
 }
 .linkedin a {
-  background-color: #0a0e23;
+  background-color: #2e2e2e;
   text-align: center;
   width: fit-content;
   height: 75px;
@@ -220,8 +225,45 @@ body {
   opacity: 75%;
 }
 .navbar-menu {
-  background-color: #0a1238;
+  background-color: #404040;
   text-align: center;
   border-radius: 25px;
   opacity: 85%;
+}
+.navbar-burger span {
+  color: #b15e06;
+}
+.fa-4x {
+  background-color: transparent;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+
+  /* Clip Background Image */
+  background: url("/Lucifer wallpaper hd (2).jpg") repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+strong {
+  font-family: "MyWebFont";
+  font-size: small;
+  color: rgb(199, 188, 188);
+}
+img {
+  border-width: 2.5px;
+  border-radius: 25px;
+  border-color: white;
+  border-style: solid;
+}
+.modal-button img {
+  border-width: 2.5px;
+  border-radius: 25px;
+  border-color: #b15e06;
+  border-style: solid;
 }
