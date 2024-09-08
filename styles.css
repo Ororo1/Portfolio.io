@@ -15,6 +15,7 @@ body {
   height: fit-content;
 }
 .title {
+  font-family: 'MyWebFont';
   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
 
   /* Clip Background Image */
