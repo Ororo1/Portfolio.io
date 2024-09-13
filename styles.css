@@ -2,13 +2,6 @@
   font-family: "MyWebFont";
   src: url("/lack-regular-webfont.woff") format("woff");
 }
-@font-face {
-  font-family: "Belle";
-  src: url("/FontsFree-Net-BelleStory-DisplayMedium.ttf") format("truetype");
-}
-.is-96x96 {
-  font-family: "Belle";
-}
 html {
   margin: 0%;
   padding: 0%;
